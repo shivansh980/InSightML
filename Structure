@@ -16,15 +16,14 @@ InSightML/
 │
 ├── src/
 │   ├── __init__.py
-│   ├── data_loader.py           # Handles data input
 │   ├── model_loader.py          # Handles model input (pickle, Keras, etc.)
-│   ├── shap_explainer.py        # SHAP logic for different models
+│   ├── shap_explainer.py        # SHAP logic for model explainer
 │   ├── bias_detection.py        # Bias detection using Fairlearn/AIF360
 │   ├── report_generator.py      # Generates PDF/HTML reports
 │   └── app.py                   # Streamlit or FastAPI for interactive dashboard
 │
 ├── notebooks/
-│   ├── EDA.ipynb
+│   ├── ReportGeneration.ipynb
 │   └── SHAP_Exploration.ipynb
 │
 ├── tests/

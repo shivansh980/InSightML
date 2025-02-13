@@ -1,6 +1,5 @@
 # InSightML
-
-InSightML is a project aimed at the interpretability of different machine learning models. It takes a machine learning model file as input and provides a pdf report containing model information, data information, and plots derived from SHAP values.
+InSightML is an end-to-end toolkit designed to help data scientists, ML practitioners and even other domain experts interpret machine learning models. It takes a machine learning model file as input and provides a pdf report containing model information, data information, and plots derived from SHAP values.
 
 ## Features
 
@@ -49,9 +48,21 @@ Replace `model_path` with the path to your machine learning model file, and data
 
 Please see examples of execution of code in "notebooks/ReportGeneration.ipynb".
 
-Please find sample reports in reports dir. 
+Here is an example of the **automated report generated** by InSightML:
 
-Sample images from report for random forest model. 
+![Model Inforamation](images/Model_info.png)
+*Model information*
+
+![Data information](images/Data_info.png)
+*Data information*
+
+![SHAP waterfall Plot](images/Plot_1.png)
+*SHAP-based waterfall plot*
+
+![Shap feature importance plot](images/Plot_2.png)
+*SHAP-based feature importance visualization*
+
+For the full report, check out [this sample PDF](reports/model_deep_interpretability_report.pdf).
 
 
 ## Contributing

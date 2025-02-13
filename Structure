@@ -3,38 +3,25 @@ InSightML/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── LICENSE
 │
 ├── data/
-│   ├── sample_data.csv
-│   └── README.md
+│   ├── Data.csv
+│   └── Shap_data.md
 │
 ├── models/
-│   ├── sample_model.pkl
-│   ├── sample_keras_model.h5
-│   └── README.md
+│   ├── model_linear_pkl.pkl
+│   ├── model_deep.keras
 │
 ├── src/
 │   ├── __init__.py
 │   ├── model_loader.py          # Handles model input (pickle, Keras, etc.)
 │   ├── shap_explainer.py        # SHAP logic for model explainer
-│   ├── bias_detection.py        # Bias detection using Fairlearn/AIF360
 │   ├── report_generator.py      # Generates PDF/HTML reports
-│   └── app.py                   # Streamlit or FastAPI for interactive dashboard
 │
 ├── notebooks/
 │   ├── ReportGeneration.ipynb
-│   └── SHAP_Exploration.ipynb
+│   └── House_Prices_Advanced_Regression.ipynb
 │
 ├── tests/
-│   ├── test_data_loader.py
-│   ├── test_model_loader.py
-│   └── test_shap_explainer.py
-│
-├── docker/
-│   ├── Dockerfile
-│   └── docker-compose.yml
-│
-└── .github/
-    └── workflows/
-        └── ci-cd-pipeline.yml   # GitHub Actions for CI/CD
+│   ├── test_model_pipeline.py
+

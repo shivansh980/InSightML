@@ -8,4 +8,6 @@ model.pkl
 .venv/
 Testing.py
 .pytest_cache/
+temp_data/
+temp_models/
 

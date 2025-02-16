@@ -1,5 +1,5 @@
 # InSightML
-InSightML is an end-to-end toolkit designed to help data scientists, ML practitioners and even other domain experts interpret machine learning models. It takes a machine learning model file as input and provides a pdf report containing model information, data information, and plots derived from SHAP values.
+InSightML is an end-to-end toolkit designed to help data scientists, ML practitioners and even other domain experts interpret machine learning models. It takes a machine learning model file as input and provides a pdf report containing model information, data information, and plots derived from SHAP values. Please refer to the webapp https://insightmlmodels.streamlit.app/ to generate a quick report for your ML models. 
 
 ## Features
 
